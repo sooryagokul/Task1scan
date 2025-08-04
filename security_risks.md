@@ -3,7 +3,7 @@
 potential security risks or Security Concerns
 
 
-Port 53/tcp – DNS (Domain Name System)  :
+Port 53/tcp – DNS (Domain Name System)  : 
 
 DNS services can introduce several security risks if not properly configured:
 
