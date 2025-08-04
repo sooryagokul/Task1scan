@@ -1,0 +1,27 @@
+
+
+Service Research on Open Ports
+
+
+Port 53 - DNS : 
+
+-DNS is responsible for resolving domain names to IP addresses , Often runs on internal or  public DNS servers or router-based services
+
+- Commonly runs DNS resolver software (e.g., BIND, dnsmasq , Unbound , Microsoft DNS)
+- Can be abused for:
+  - DNS poisoning
+  - Information leakage via zone transfer
+  - Amplification in DDoS attacks
+- Will test further with `dns-zone-transfer` Nmap script
+
+----------------------------------------------------------
+
+Port 80 - HTTP  : 
+
+- Likely a web interface or service hosted internally
+- May expose login panels or configuration UIs
+- If outdated or misconfigured:
+  - Can be vulnerable to XSS, RCE, directory traversal
+  - No HTTPS = data is exposed in plaintext
+- Will investigate with `http-enum` and browser-based testing
+
