@@ -1,6 +1,6 @@
 
 
-scanned 192.168.18.0/24  using " nmap -sS 192.168.18.101/24 "  and found:
+scanned 192.168.18.0/24  using " nmap -sS 192.168.18.101/24 "  and found : 
 
 
 <img width="1072" height="602" alt="nmap" src="https://github.com/user-attachments/assets/1d3c4b24-55fe-4486-a0f7-c0b5b30dcb07" />
