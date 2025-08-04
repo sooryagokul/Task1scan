@@ -49,4 +49,13 @@ and then ,
 
     ------------------------------------------------------------------------------------------------------------------
 
+
+ We can also try out these commands for more clarity :
+
+  Service Version Detection  :  nmap -sV 192.168.18.101
+
+  OS Detection               :  sudo nmap -O 192.168.18.101
+
+  Aggressive Scan (All-in-One) :  sudo nmap -A 192.168.18.101
+
     
